@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Which database normalization form eliminates transitive dependency?",
+    "options": {
+      "A": "First Normal Form",
+      "B": "Second Normal Form",
+      "C": "Third Normal Form",
+      "D": "Boyce-Codd Normal Form"
+    },
+    "correct_answer": "C",
+    "explanation": "Third Normal Form eliminates transitive dependency by ensuring non-key attributes \ndepend only on the primary key, not on any intermediate key."
+  },
+  {
+    "question": "Which SQL command is used to create a database?",
+    "options": {
+      "A": "CREATE",
+      "B": "INSERT",
+      "C": "UPDATE",
+      "D": "DELETE"
+    },
+    "correct_answer": "A",
+    "explanation": "No explanation provided."
+  },
+  {
+    "question": "What is the purpose of a database schema?",
+    "options": {
+      "A": "To define the overall structure of a database",
+      "B": "To ensure data consistency across concurrent transactions",
+      "C": "To optimize query performance in data warehouses",
+      "D": "To enforce strict data relationships between entities"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A). A database"
+  },
+  {
+    "question": "What is the purpose of a primary key in a relational database?",
+    "options": {
+      "A": "To ensure every row in a table has a unique identifier",
+      "B": "To enforce data integrity across tables",
+      "C": "To allow null values in columns",
+      "D": "To enforce referential integrity"
+    },
+    "correct_answer": "A",
+    "explanation": "A primary key ensures that every row in a table has a unique identifier. This helps \nmaintain data integrity and allows for efficient data retrieval. Foreign keys enforce referential \nintegrity between tables"
+  },
+  {
+    "question": "Which of the following is NOT a feature of a view?",
+    "options": {
+      "A": "Virtual table",
+      "B": "Data manipulation",
+      "C": "Query optimization",
+      "D": "Data storage"
+    },
+    "correct_answer": "D",
+    "explanation": "A view is a virtual table that doesn't store data, but displays data derived from one or more tables. It doesn't have data storage."
+  },
+  {
+    "question": "Which type of index is best suited for data warehousing environments with low cardinality?",
+    "options": {
+      "A": "B -tree index",
+      "B": "Hash index",
+      "C": "Bitmap index",
+      "D": "Inverted index"
+    },
+    "correct_answer": "C",
+    "explanation": "Bitmap indexes are efficient in data warehousing environments with low cardinality. They allow fast retrieval of matching records, but don't work well for range queries."
+  },
+  {
+    "question": "What is a distributed database?",
+    "options": {
+      "A": "A collection of data stored across multiple physical locations",
+      "B": "A database optimized for high"
+    },
+    "correct_answer": "A",
+    "explanation": "No explanation provided."
+  }
+]

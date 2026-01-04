@@ -1,0 +1,155 @@
+[
+  {
+    "question": "Which of the following is a necessary condition for a deadlock to occur?",
+    "options": {
+      "A": "Mutual exclusion",
+      "B": "Hold and wait",
+      "C": "No preemption",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "explanation": "All four conditions (mutual exclusion, hold and wait, no preemption, and circular wait) must be satisfied for a deadlock to occur."
+  },
+  {
+    "question": "Which of the following is NOT a way to prevent deadlocks?",
+    "options": {
+      "A": "Resource allocation graph analysis",
+      "B": "Deadlock detection",
+      "C": "Resource allocation order",
+      "D": "Resource reservation"
+    },
+    "correct_answer": "B",
+    "explanation": "Deadlock detection is used to identify deadlocks after they have occurred, not to prevent them. Prevention methods include resource allocation order, resource reservation, and banker's algorithm."
+  },
+  {
+    "question": "What is the circular wait condition in the context of deadlocks?",
+    "options": {
+      "A": "A process must hold a resource for an extended period of time",
+      "B": "A process must hold a resource while waiting for another process to release a resource",
+      "C": "A process must be allocated all the resources it needs to execute",
+      "D": "A process must be allocated all the resources it needs to execute in a circular manner"
+    },
+    "correct_answer": "D",
+    "explanation": "The circular wait condition is when a set of processes exists such that each process is waiting for a resource held by the next process in a circular chain. This is a necessary condition for a deadlock."
+  },
+  {
+    "question": "What is the purpose of the banker's algorithm?",
+    "options": {
+      "A": "To detect deadlocks",
+      "B": "To prevent deadlocks",
+      "C": "To resolve deadlocks",
+      "D": "To optimize resource allocation"
+    },
+    "correct_answer": "B",
+    "explanation": "The banker's algorithm is a prevention method used to prevent deadlocks by ensuring that no deadlock can occur. It works by allocating resources to processes and checking if the process could still run even if all requests are granted. If not, the algorithm denies further requests."
+  },
+  {
+    "question": "What is the resource allocation graph used for?",
+    "options": {
+      "A": "Detecting deadlocks",
+      "B": "Preventing deadlocks",
+      "C": "Resolving deadlocks",
+      "D": "Optimizing resource allocation"
+    },
+    "correct_answer": "A",
+    "explanation": "The resource allocation graph is used to analyze potential deadlocks. It represents the system's resource allocation state, with nodes representing processes and edges representing resource requests. If a cycle exists, a deadlock is possible."
+  },
+  {
+    "question": "What is the circular wait condition in the context of deadlocks?",
+    "options": {
+      "A": "A process must hold a resource while waiting for another process to release a resource",
+      "B": "A process must hold a resource for an extended period of time",
+      "C": "A process"
+    },
+    "correct_answer": "A",
+    "explanation": "No explanation provided."
+  },
+  {
+    "question": "What is the primary goal of a computer network?",
+    "options": {
+      "A": "Ensuring data security",
+      "B": "Enabling communication and data exchange",
+      "C": "Providing high -speed internet access",
+      "D": "Optimizing resource utilization"
+    },
+    "correct_answer": "B",
+    "explanation": "The primary goal of a computer network is to enable communication and data exchange \nbetween multiple computing devices. This includes both local area networks (LANs) and wide area \nnetworks (WANs)."
+  },
+  {
+    "question": "What is the primary function of the internet layer?",
+    "options": {
+      "A": "Routing data packets across networks",
+      "B": "Guaranteeing reliable data delivery",
+      "C": "Managing network access",
+      "D": "Providing error handling mechanisms"
+    },
+    "correct_answer": "A",
+    "explanation": "No explanation provided."
+  },
+  {
+    "question": "Which of the following is a common network security threat?",
+    "options": {
+      "A": "Unauthorized access",
+      "B": "Data interception",
+      "C": "Denial -of-service attacks",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "explanation": "Unauthorized access, data interception, denial -of-service attacks, and malware \npropagation are all common network security threats."
+  },
+  {
+    "question": "What is the primary function of a firewall?",
+    "options": {
+      "A": "Enforcing security policies",
+      "B": "Providing network connectivity",
+      "C": "Encrypting data",
+      "D": "Load balancing"
+    },
+    "correct_answer": "A",
+    "explanation": "A firewall enforces security policies and protects networks from unauthorized \naccess. It is not responsible for providing network connectivity, encrypting data, or load \nbalancing."
+  },
+  {
+    "question": "Which protocol is used for secure communication over the Internet?",
+    "options": {
+      "A": "TCP",
+      "B": "UDP",
+      "C": "HTTPS",
+      "D": "FTP"
+    },
+    "correct_answer": "C",
+    "explanation": "HTTPS is a secure version of HTTP that uses SSL/TLS for encryption. TCP and UDP \nare transport layer protocols, while FTP is a file transfer protocol."
+  },
+  {
+    "question": "What is the purpose of encryption in network security?",
+    "options": {
+      "A": "Preventing unauthorized access",
+      "B": "Increasing network efficiency",
+      "C": "Reducing latency",
+      "D": "Enhancing network performance"
+    },
+    "correct_answer": "A",
+    "explanation": "Encryption prevents unauthorized access by securing sensitive data in transit. It \ndoes not directly affect network efficiency, latency, or performance."
+  },
+  {
+    "question": "What is the primary concern when designing a network for security?",
+    "options": {
+      "A": "Scalability",
+      "B": "Reliability",
+      "C": "Performance",
+      "D": "Security"
+    },
+    "correct_answer": "D",
+    "explanation": "Security is the primary concern when designing a network. Scalability, reliability, \nand performance are important considerations as well, but security is the top priority."
+  },
+  {
+    "question": "What is the purpose of intrusion detection systems in networks?",
+    "options": {
+      "A": "Preventing denial -of-service attacks",
+      "B": "Detecting and responding to security incidents",
+      "C": "Encrypting data in transit",
+      "D": "Optimizing network performance"
+    },
+    "correct_answer": "B",
+    "explanation": "Intrusion detection systems (IDS) are used to detect and respond to security \nincidents in networks. They do not prevent denial -of-service attacks, encrypt data, or \noptimize performance."
+  }
+]
